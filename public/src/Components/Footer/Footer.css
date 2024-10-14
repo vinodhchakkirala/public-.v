@@ -1,0 +1,95 @@
+
+.hospital-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-section {
+    width: 22%;
+  }
+  
+  .hospital-info h3,
+  .hospital-address h3,
+  .quick-links h3,
+  .subscribe-updates h3 {
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .hospital-info p,
+  .hospital-address p,
+  .quick-links ul,
+  .quick-links li {
+    color: #ccc;
+    margin: 5px 0;
+  }
+  
+  .quick-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quick-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .subscribe-updates input {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .subscribe-updates button {
+    padding: 8px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .subscribe-updates button:hover {
+    background-color: #218838;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .hospital-footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-section {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .subscribe-updates input,
+    .subscribe-updates button {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hospital-footer {
+      padding: 15px;
+    }
+  
+    .footer-section h3 {
+      font-size: 16px;
+    }
+  
+    .subscribe-updates input {
+      padding: 6px;
+    }
+  
+    .subscribe-updates button {
+      padding: 6px;
+      font-size: 14px;
+    }
+  }
+  
